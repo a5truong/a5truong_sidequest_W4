@@ -6,29 +6,21 @@ GBDA302 Week 4 Example 3: JSON Levels + Level class
 
 ## Authors
 
-Karen Cochrane and David Han
+Amy Truong
 
 ---
 
 ## Description
 
-This sketch demonstrates preloads and loadJSON files.
+This project generates levels using JSON data stored in levels.json. Each level is drawn using nested loops, with different numbers representing walls, floors, obstacles, and word tiles.
 
 ---
 
-## Learning Goals
+## Interaction Instructions
 
-Learning Goals:
-
-- preload() + loadJSON() so external data is available before setup() runs.
-- How to turn raw JSON arrays into objects (instances of a Level class).
-- How to switch between multiple levels by index (by pressing N on the keyboard).
-- How to resize the canvas when different levels have different dimensions.
-
-Important concept:
-
-- "levels.json is just data"
-- "Level (class) is code that knows how to interpret + draw that data"
+- It starts when the page loads
+- Press 'n' to switch between levels
+- Different coloured tiles represent different tile types
 
 ---
 
@@ -39,7 +31,5 @@ N/A
 ---
 
 ## GenAI
-
-The code was written by Dr. Karen Cochrane and David Han but they used GenAI to write the comments.
 
 ---
